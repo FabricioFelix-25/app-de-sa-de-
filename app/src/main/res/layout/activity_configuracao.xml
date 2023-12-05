@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de Exercício:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoExercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonCaminhada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caminhada" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCorrida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corrida" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBicicleta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bicicleta" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unidade de Velocidade:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupUnidadeVelocidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonKMH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km/h" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m/s" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orientação do Mapa:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOrientacaoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonNenhuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nenhuma" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNorthUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North Up" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCourseUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Up" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo do Mapa:" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonVetorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vetorial" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSatelite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satélite" />
+    </RadioGroup>
+</LinearLayout>

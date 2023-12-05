@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Avaliação 2</string>
+    <string name="btnMonitorar">Track Exercise</string>
+    <string name="btnHistorico">Historic</string>
+    <string name="btnPerfil">User Profile</string>
+    <string name="btnConfiguracao">Settings</string>
+    <string name="btnSobre">about</string>
+</resources>

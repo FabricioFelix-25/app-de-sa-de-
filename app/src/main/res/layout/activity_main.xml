@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMonitorar"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/background_button"
+        android:baselineAligned="false"
+        android:text="@string/btnMonitorar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnHistorico"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/background_button"
+        android:text="@string/btnHistorico" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPerfil"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/background_button"
+        android:text="@string/btnPerfil" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfiguracao"
+        android:layout_width="223dp"
+        android:layout_height="64dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/background_button"
+        android:text="@string/btnConfiguracao" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSobre"
+        android:layout_width="272dp"
+        android:layout_height="71dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/background_button"
+        android:text="@string/btnSobre" />
+</LinearLayout>

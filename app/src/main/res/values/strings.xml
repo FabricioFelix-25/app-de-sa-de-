@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">Avaliação 2</string>
+    <string name="btnMonitorar">Monitorar Exercício</string>
+    <string name="btnHistorico">Historico</string>
+    <string name="btnPerfil">Perfil do Usuário</string>
+    <string name="btnConfiguracao">Configurações</string>
+    <string name="btnSobre">Sobre</string>
+    <string name="bt_start" translatable="false">start</string>
+    <string name="bt_stop" translatable="false">stop</string>
+    <string name="bt_obter" translatable="false">obter</string>
+    <string name="title_activity_monitorar_exercicio">MonitorarExercicio</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- MapView -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <!-- Informações sobre o exercício -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtVelocidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Velocidade: 0 m/s"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtDistancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distância: 0 metros"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtChronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempo: 00:00:00"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioGroupTipoExercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- ... Restante do código ... -->
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupUnidadeVelocidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- ... Restante do código ... -->
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupOrientacaoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- ... Restante do código ... -->
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- ... Restante do código ... -->
+    </RadioGroup>
+
+</RelativeLayout>
